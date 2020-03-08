@@ -1,5 +1,5 @@
 package cableado;
 
 public interface IElementoDeTrabajo {
-	void gestionarElemento();
+	boolean gestionarElemento(String idElemento, int operacion);
 }

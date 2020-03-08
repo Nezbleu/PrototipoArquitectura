@@ -6,14 +6,14 @@ import cableado.IDespacho;
 public class Domicilio implements IDespacho {
 
 	@Override
-	public boolean despacharPedido(int idFactura) {
+	public boolean despacharPedido(String idFactura) {
 		JOptionPane.showMessageDialog(null, "despacharPedido");
 		return false;
 
 	}
 
 	@Override
-	public boolean verificarEntrega(int idFactura) {
+	public boolean verificarEntrega(String idFactura) {
 		JOptionPane.showMessageDialog(null, "verificarEntrega");
 		return false;
 	}

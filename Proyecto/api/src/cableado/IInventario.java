@@ -1,5 +1,5 @@
 package cableado;
 
 public interface IInventario {
-	void gestionarInventario();
+	boolean gestionarInventario(String idIngrediente, int operacion);
 }

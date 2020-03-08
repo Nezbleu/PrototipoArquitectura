@@ -19,12 +19,12 @@ public class Platillo implements ILienzo{
 	}
 
 	@Override
-	public boolean anadirIngrediente(int arg0) {
+	public boolean anadirIngrediente(String id) {
 		return false;
 	}
 
 	@Override
-	public boolean eliminarIngrediente(int arg0) {
+	public boolean eliminarIngrediente(String id) {
 		// TODO Auto-generated method stub
 		return false;
 	}

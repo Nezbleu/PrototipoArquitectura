@@ -1,5 +1,5 @@
 package cableado;
 
 public interface IRecaudo {
-	boolean captarPago(int idFactura, double valor);
+	boolean captarPago(String idFactura, double valor);
 }

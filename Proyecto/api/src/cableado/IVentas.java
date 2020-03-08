@@ -1,5 +1,5 @@
 package cableado;
 
 public interface IVentas {
-	void gestioarVentas();
+	boolean gestioarVentas(String idFactura, String idEmpleado);
 }
