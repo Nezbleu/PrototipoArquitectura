@@ -1,6 +1,6 @@
 package cableado;
 
 public interface IDespacho {
-	void despacharPedido();
-	void verificarEntrega();
+	boolean despacharPedido(int idFactura);
+	boolean verificarEntrega(int idFactura);
 }

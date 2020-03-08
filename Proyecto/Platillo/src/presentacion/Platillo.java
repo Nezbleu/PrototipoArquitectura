@@ -12,7 +12,7 @@ public class Platillo implements ILienzo{
 	}
 
 	@Override
-	public boolean guardarElDestinoDlPlatillo(Object platillo) {
+	public boolean guardarElDestinoDlPlatillo() {
 		JOptionPane.showMessageDialog(null, "Platillo guardado");
 		return false;
 		
