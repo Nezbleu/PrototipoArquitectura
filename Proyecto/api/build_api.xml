@@ -7,7 +7,7 @@
             Genera el jar del framework  para AIA
     </description>
     <target name="Crear api.jar" description="crea el api.jar">
-    	 <jar destfile="C:\Users\Estudiantes\Downloads\Proyecto\Aureo\api\api.jar" 
+    	 <jar destfile="C:\Users\n3ver\Desktop\Patrones\Aureo\api\api.jar" 
     	 	  basedir= "bin\"    	 	  
     	 />    	 
     </target>

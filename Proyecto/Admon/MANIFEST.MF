@@ -2,4 +2,4 @@ Manifest-Version: 1.0
 
 Name: COMPONENTE
 nombre: Admon
-clase: edu.presentacion.Admon
+clase: presentacion.Admon

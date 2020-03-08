@@ -7,7 +7,7 @@
             Genera el jar del componente
     </description>
     <target name="Crear componete.jar" description="crea el compoenente.jar">
-    	 <jar destfile="C:\Users\Estudiantes\Downloads\Proyecto\Aureo\back\pagos.jar" 
+    	 <jar destfile="C:\Users\n3ver\Desktop\Patrones\Aureo\back\pagos.jar" 
     	 	  basedir= "bin\"
     	 	  manifest="MANIFEST.MF"
     	 />    	 

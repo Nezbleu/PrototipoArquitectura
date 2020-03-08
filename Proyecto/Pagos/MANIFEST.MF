@@ -2,4 +2,4 @@ Manifest-Version: 1.0
 
 Name: COMPONENTE
 nombre: Pagos
-clase: edu.presentacion.Pagos
+clase: presentacion.Pagos
