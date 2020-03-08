@@ -12,9 +12,24 @@ public class Platillo implements ILienzo{
 	}
 
 	@Override
-	public void guardarElDestinoDlPlatillo() {
+	public boolean guardarElDestinoDlPlatillo(Object platillo) {
 		JOptionPane.showMessageDialog(null, "Platillo guardado");
+		return false;
 		
 	}
+
+	@Override
+	public boolean anadirIngrediente(int arg0) {
+		return false;
+	}
+
+	@Override
+	public boolean eliminarIngrediente(int arg0) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	
+
 
 }

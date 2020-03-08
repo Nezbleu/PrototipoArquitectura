@@ -25,7 +25,7 @@ public class Aureo {
 			cls=  cb.getClase("Pagos");
 			if(cls!=null) {
 				IRecaudo ir = (IRecaudo)cls.newInstance();
-				ir.captarPago();
+				ir.captarPago(1,220.0);
 			}
 			
 		}catch(Exception e) {}		

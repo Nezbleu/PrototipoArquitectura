@@ -2,5 +2,7 @@ package cableado;
 
 public interface ILienzo {
 	Object construirPlatillo();
-	void guardarElDestinoDlPlatillo();
+	boolean guardarElDestinoDlPlatillo(Object platillo);
+	boolean anadirIngrediente(int id);
+	boolean eliminarIngrediente(int id);
 }
